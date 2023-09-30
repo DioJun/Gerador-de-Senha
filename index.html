@@ -16,34 +16,48 @@
         <span>Tamanho <samp id="valor"></samp> caracteres</span>
         
         <input type="range" id="slider" class="slider" min="8" max="25" value="13">
-<!--
+
         <form>
-            <div>
-                <label for="letrasMin-box">
-                <input type="checkbox" id="minúsculas" name="html5-box" value="1">
-                Letras minúsculas
-                </label>
-            </div>
-            <div>  
-                <label for="css3-box">
-                <input type="checkbox"id="css3" name="css3-box" value="2">
-                CSS3
-                </label>
-            </div>
-            <div>
-                <label for="javascript-box">
-                <input type="checkbox"id="javascript" name="javascript-box" value="3">
-                JavaScript
-                </label>
-            </div>
-            <div>
-                <label for="react-box">
-                <input type="checkbox"id="react" name="react-box" value="4">
-                React
-                </label>
-            </div>
+
+            <fieldset>
+
+                <legend>Escolha os tipos de caracteres da sua senha</legend>
+
+                <div class="opt">
+                    
+                    <div class="check">
+                        <input type="checkbox"  id="minusculas" name="letrasMin-box" value="1" checked>
+                    </div>
+
+                    <label for="letrasMin-box">Letras Minúsculas</label>
+
+                </div>
+
+                <div class="opt">
+                    <div class="check">
+                        <input type="checkbox"id="maiusculas" name="letrasMai-box" value="2">
+                    </div>
+                    <label for="letrasMai-box">Letras Maiúsculas</label>
+                </div>
+
+                <div class="opt">
+                    <div class="check">
+                        <input type="checkbox"id="numeros" name="numeros-box" value="3">
+                    </div>
+                    <label for="numeros-box">Números</label>
+                </div>
+
+                <div class="opt">
+                    <div class="check">
+                        <input type="checkbox"id="especiais" name="especiais-box" value="4">
+                    </div>
+                    <label for="especiais-box">Especiais</label>
+                </div>
+            
+            </fieldset>
+
         </form>
--->
+
         <button id="button" class="button-cta" onclick="generatePassword()">Gerar Senha</button>
     
     </main>

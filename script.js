@@ -8,6 +8,23 @@ let password = document.querySelector("#password");
 let containerPassword = document.querySelector("#container-password");
 
 let charset = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789.-_=";
+/*
+Implementar a lógica do check-box 
+
+
+let minuscula = "abcdefghijklmnopqrstuvwxyz";
+let maiuscula = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+let numeros = "0123456789";
+let especiais = ".-_=";
+
+
+
+function check() {
+    let options = document.querySelector("#minuscula : checked")
+
+}
+*/
+
 let novaSenha = "";
 
 sizePassword.innerHTML = sliderElement.value;
