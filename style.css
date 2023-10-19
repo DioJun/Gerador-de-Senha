@@ -39,7 +39,7 @@ body{
 }
 
 fieldset {
-    height: 190px;
+    height: 220px;
     background-color: rgba(0, 0, 0, 0.40);
     border-radius: 5px;
     display: flex;
